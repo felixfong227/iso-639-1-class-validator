@@ -1,4 +1,4 @@
-import { IsString, validateOrReject } from "class-validator";
+import { validateOrReject } from "class-validator";
 import { IsISO6391 } from ".";
 
 describe('Validate ISO 639-1 code', () => {
